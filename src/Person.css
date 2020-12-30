@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    
+}
+.person {
+    background-color: white;
+    width:80vw;
+    height: 50vh;
+    position: relative;
+    left: 10%;
+    top: 100px;
+}
+.buttons{
+    color: white;
+    position: relative;
+    top:100px;
+    display: flex;
+    justify-content: space-between;
+    width:80vw;
+    left: 10%;
+}
+
+.id{
+    position: relative;
+    text-align: right;
+    right: 20px;
+}
+
+.fullname{
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 180, 255);
+    position: relative;
+}
